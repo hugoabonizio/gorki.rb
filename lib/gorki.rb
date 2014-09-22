@@ -7,8 +7,8 @@ class Gorki
   end
   
   def set(key, value)
-    Thread.new { Net::HTTP.get(URI("http://#{@host}:#{@port}/set/#{key}/#{value}")) }
-    #Net::HTTP.get(URI("http://#{@host}:#{@port}/set/#{key}/#{value}"))
+    #Thread.new { Net::HTTP.get(URI("http://#{@host}:#{@port}/set/#{key}/#{value}")) }
+    Net::HTTP.get(URI("http://#{@host}:#{@port}/set/#{key}/#{value}"))
     true
   end
   def get(key)
