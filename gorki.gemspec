@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'hugo_abonizio@hotmail.com'
   s.files       = ["lib/gorki.rb"]
   s.homepage    =
-    'http://rubygems.org/gems/gorki'
+    'https://github.com/hugoabonizio/gorkirb'
   s.license       = 'MIT'
 end
